@@ -15,6 +15,7 @@ Week 1: Learning the Fundamentals ✅
    * Learn/review Python fundamentals ✅
    * Introduction to geospatial Python libraries: Geopandas, Rasterio, Shapely ✅
 * Weekend: Set up your development environment completely ✅
+
 Week 2: Data Acquisition and Preparation ✅
 * Days 1-2: Source free satellite imagery ✅
    * Sentinel-2 (10m resolution, free from ESA) ✅
@@ -35,6 +36,7 @@ Week 3: Feature Detection Basics
 * Days 4-5: Implementing Basic Building Detection Algorithm
    * Create a simple pipeline to identify building footprints
    * Extract vector polygons from detected features
+
 Week 4: Machine Learning for Feature Extraction
 * Days 1-2: Introduction to Machine Learning for Geospatial Data
    * Learn about Supervised Classification
@@ -43,6 +45,7 @@ Week 4: Machine Learning for Feature Extraction
    * Create training data (manually digitize some buildings)
    * Train a simple classifier (Random Forest)
    * Extract building footprints and convert to vectors
+
 Week 5: Deep Learning Approach
 * Days 1-2: Introduction to Deep Learning for Semantic Segmentation
    * Set up a deep learning environment (TensorFlow or PyTorch)
@@ -51,6 +54,7 @@ Week 5: Deep Learning Approach
    * Use a pre-trained model like SpaceNet or U-Net
    * Run inference on your satellite images
    * Convert segmentation masks to vector polygons
+
 Week 6: Refinement and Integration
 * Days 1-3: Vector Data Cleaning and Enhancement
    * Polygon simplification
