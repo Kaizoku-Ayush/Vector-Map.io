@@ -20,11 +20,11 @@ Week 2: Data Acquisition and Preparation ✅
    * Sentinel-2 (10m resolution, free from ESA) ✅
    * USGS Earth Explorer (Landsat data) ✅
    * NASA SRTM for DEM data ✅
-* Days 3-5: Data preprocessing techniques -InProgress
-   * Georeferencing
-   * Radiometric correction
-   * Image enhancement
-   * Practice using GDAL/OGR command-line utilities
+* Days 3-5: Data preprocessing techniques ✅
+   * Georeferencing ✅
+   * Radiometric correction ✅
+   * Image enhancement ✅
+   * Practice using GDAL/OGR command-line utilities ✅
 Week 3: Feature Detection Basics
 * Days 1-3: Introduction to Computer Vision for Remote Sensing
    * Install OpenCV
