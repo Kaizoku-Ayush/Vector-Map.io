@@ -25,6 +25,7 @@ Week 2: Data Acquisition and Preparation ✅
    * Radiometric correction ✅
    * Image enhancement ✅
    * Practice using GDAL/OGR command-line utilities ✅
+
 Week 3: Feature Detection Basics
 * Days 1-3: Introduction to Computer Vision for Remote Sensing
    * Install OpenCV
