@@ -69,7 +69,7 @@ Recommended Free Resources:
 
 Software:
 1. QGIS - Open-source GIS software
-2. Anaconda - Python distribution with scientific libraries
+2. Anaconda (Optional) - Python distribution with scientific libraries
 3. OpenCV - Computer vision library
 4. GDAL/OGR or any other - Geospatial data processing libraries
 5. TensorFlow/PyTorch - Deep learning frameworks
