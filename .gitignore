@@ -2,6 +2,12 @@
 *.tif
 data/
 
+#conda files
+.conda
+
+# Byte-compiled / optimized / DLL files
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

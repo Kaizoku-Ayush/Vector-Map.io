@@ -1,0 +1,12 @@
+{
+  "patch_info": {
+    "total_patches": 200,
+    "preprocessed_images": 2,
+    "quality_metrics": []
+  },
+  "preprocessing settings": {
+    "patch_size": 512,
+    "overlap": 0.1,
+    "max_images": 2
+  }
+}
