@@ -27,50 +27,66 @@ Week 2: Data Acquisition and Preparation ✅
    * Image enhancement ✅
    * Practice using GDAL/OGR command-line utilities ✅
 
-Week 3: Feature Detection Basics
-* Days 1-3: Introduction to Computer Vision for Remote Sensing
-   * Install OpenCV
-   * Learn edge detection
-   * Basic segmentation techniques
-   * Simple building extraction using thresholding
-* Days 4-5: Implementing Basic Building Detection Algorithm
-   * Create a simple pipeline to identify building footprints
-   * Extract vector polygons from detected features
+Week 3: Deep Learning Fundamentals for Remote Sensing
+* Days 1-2: Deep Learning Environment Setup
+  * Install PyTorch (free, well-documented for segmentation)
+  * Alternative: TensorFlow/Keras setup
+  * Install segmentation-models-pytorch (open-source library)
+  * GPU setup if available (CUDA/ROCm)
+* Days 3-5: Semantic Segmentation Basics
+  * Understand U-Net, U-Net++, and U-Net3+ architectures
+  * Implement basic U-Net using PyTorch
+  * Train on Inria dataset for building extraction
+  * Evaluation metrics: IoU, F1-score, precision, recall
 
-Week 4: Machine Learning for Feature Extraction
-* Days 1-2: Introduction to Machine Learning for Geospatial Data
-   * Learn about Supervised Classification
-   * Introduction to scikit-learn
-* Days 3-5: Building a Simple ML Pipeline
-   * Create training data (manually digitize some buildings)
-   * Train a simple classifier (Random Forest)
-   * Extract building footprints and convert to vectors
+Week 4: Multi-Class Feature Extraction
+* Days 1-2: Building Detection Refinement
+  * Fine-tune pre-trained models on Inria dataset
+  * Experiment with different architectures (DeepLabV3+, FPN)
+  * Post-processing: morphological operations, polygon simplification
+* Days 3-5: Extending to Multiple Features
+  * Bridges: Use OSM data + satellite imagery for training samples
+  * Metro/Railway tracks: Leverage SpaceNet datasets (free)
+  * Multi-class segmentation approach
+Create custom dataset combining different feature types
 
-Week 5: Deep Learning Approach
-* Days 1-2: Introduction to Deep Learning for Semantic Segmentation
-   * Set up a deep learning environment (TensorFlow or PyTorch)
-   * Understand U-Net architecture for segmentation
-* Days 3-5: Implement a Pre-trained Model
-   * Use a pre-trained model like SpaceNet or U-Net
-   * Run inference on your satellite images
-   * Convert segmentation masks to vector polygons
+Week 5: Advanced Deep Learning and Height Estimation
+* Days 1-2: Height Information Integration
+  * Fusion techniques for DEM + RGB imagery
+  * Shadow analysis for height estimation
+  * Stereo imagery processing using OpenCV (free)
+* Days 3-5: Large-Scale Processing
+  * Tiling strategies for 500km x 500km areas
+  * Memory-efficient inference techniques
+  * Distributed processing using Dask (open-source)
+  * Scene mosaicking and seamless integration
 
-Week 6: Refinement and Integration
-* Days 1-3: Vector Data Cleaning and Enhancement
-   * Polygon simplification
-   * Topology correction
-   * Adding attributes (building type, estimated height)
-* Days 4-5: Complete Pipeline Integration
-   * Create an end-to-end script
-   * Document the process
-   * Prepare a demonstration of extracted features
-   
-Recommended Free Resources:
+Week 6: Vector Conversion and Pipeline Integration
+* Days 1-2: Segmentation to Vector Conversion
+  * Convert segmentation masks to polygons using OpenCV
+  * Topology correction using Shapely
+  * Polygon simplification and smoothing
+* Days 3-4: Complete Pipeline Integration
+  * End-to-end automated pipeline
+  * Quality assessment and validation
+  * Performance optimization for large datasets
+* Day 5: Documentation and Deployment
+  * Code documentation and README
+  * Docker containerization (optional)
+  * Prepare demonstration with extracted features
 
-Software:
-1. QGIS - Open-source GIS software
-2. Anaconda (Optional) - Python distribution with scientific libraries
-3. OpenCV - Computer vision library
-4. GDAL/OGR or any other - Geospatial data processing libraries
-5. TensorFlow/PyTorch - Deep learning frameworks
-6. Any other
+Open Source Tools and Resources Used
+Core Libraries (All Free)
+PyTorch/TensorFlow: Deep learning frameworks
+segmentation-models-pytorch: Pre-trained segmentation models
+OpenCV: Computer vision operations
+GDAL/Rasterio: Geospatial data processing
+Geopandas/Shapely: Vector data manipulation
+Scikit-image: Image processing
+Dask: Parallel computing
+
+Free Satellite Imagery Sources
+Sentinel-2: 10m resolution, ESA
+Landsat: 30m resolution, USGS
+Maxar Open Data Program: High-resolution disaster imagery
+NASA SRTM: DEM data
