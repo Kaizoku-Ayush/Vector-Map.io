@@ -76,17 +76,19 @@ Week 6: Vector Conversion and Pipeline Integration
   * Prepare demonstration with extracted features
 
 Open Source Tools and Resources Used
+
 Core Libraries (All Free)
-PyTorch/TensorFlow: Deep learning frameworks
-segmentation-models-pytorch: Pre-trained segmentation models
-OpenCV: Computer vision operations
-GDAL/Rasterio: Geospatial data processing
-Geopandas/Shapely: Vector data manipulation
-Scikit-image: Image processing
-Dask: Parallel computing
+* PyTorch/TensorFlow: Deep learning frameworks
+* segmentation-models-pytorch: Pre-trained segmentation models
+* OpenCV: Computer vision operations
+* GDAL/Rasterio: Geospatial data processing
+* Geopandas/Shapely: Vector data manipulation
+* Scikit-image: Image processing
+* Dask: Parallel computing
 
 Free Satellite Imagery Sources
-Sentinel-2: 10m resolution, ESA
-Landsat: 30m resolution, USGS
-Maxar Open Data Program: High-resolution disaster imagery
-NASA SRTM: DEM data
+
+* Sentinel-2: 10m resolution, ESA
+* Landsat: 30m resolution, USGS
+* Maxar Open Data Program: High-resolution disaster imagery
+* NASA SRTM: DEM data
