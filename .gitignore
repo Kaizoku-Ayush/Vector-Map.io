@@ -2,6 +2,12 @@
 *.tif
 data/
 
+#Ignoring Model Files
+*.pth
+
+#Ignoring Patch Files
+preprocessed_patches/
+
 #conda files
 .conda
 
