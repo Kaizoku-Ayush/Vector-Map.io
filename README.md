@@ -27,17 +27,17 @@ Week 2: Data Acquisition and Preparation ✅
    * Image enhancement ✅
    * Practice using GDAL/OGR command-line utilities ✅
 
-Week 3: Deep Learning Fundamentals for Remote Sensing
-* Days 1-2: Deep Learning Environment Setup
-  * Install PyTorch (free, well-documented for segmentation)
-  * Alternative: TensorFlow/Keras setup
-  * Install segmentation-models-pytorch (open-source library)
-  * GPU setup if available (CUDA/ROCm)
-* Days 3-5: Semantic Segmentation Basics
-  * Understand U-Net, U-Net++, and U-Net3+ architectures
-  * Implement basic U-Net using PyTorch
-  * Train on Inria dataset for building extraction
-  * Evaluation metrics: IoU, F1-score, precision, recall
+Week 3: Deep Learning Fundamentals for Remote Sensing ✅
+* Days 1-2: Deep Learning Environment Setup ✅
+  * Install PyTorch (free, well-documented for segmentation) ✅
+  * Alternative: TensorFlow/Keras setup ✅
+  * Install segmentation-models-pytorch (open-source library) ✅
+  * GPU setup if available (CUDA/ROCm) ✅
+* Days 3-5: Semantic Segmentation Basics ✅
+  * Understand U-Net, U-Net++, and U-Net3+ architectures ✅
+  * Implement basic U-Net using PyTorch ✅
+  * Train on Inria dataset for building extraction ✅
+  * Evaluation metrics: IoU, F1-score, precision, recall ✅
 
 Week 4: Multi-Class Feature Extraction
 * Days 1-2: Building Detection Refinement
