@@ -4,6 +4,9 @@ models/
 vector_outputs/
 vector_processing_output/
 
+#md files
+working.md
+
 #Ignoring Dataset Files
 *.tif
 data/
