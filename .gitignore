@@ -4,6 +4,10 @@ models/
 vector_outputs/
 vector_processing_output/
 
+#more files
+performance_efficiency.png.aux.xml
+individual_buildings.geojson
+
 #md files
 working.md
 
