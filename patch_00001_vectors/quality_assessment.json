@@ -1,0 +1,23 @@
+{
+  "geometry_validation": {
+    "total_polygons": 8,
+    "valid_polygons": 8,
+    "validation_rate": 100.0
+  },
+  "geometric_properties": {
+    "total_area_m2": 1275.25,
+    "average_area_m2": 159.40625,
+    "median_area_m2": 144.5625
+  },
+  "confidence_metrics": {
+    "average_confidence": 0.998904287815094,
+    "min_confidence": 0.998904287815094,
+    "max_confidence": 0.998904287815094
+  },
+  "height_metrics": {
+    "average_height": 6.078430712223053,
+    "max_height": 6.078431129455566,
+    "min_height": 6.078430652618408
+  },
+  "overall_quality": 99.9452143907547
+}

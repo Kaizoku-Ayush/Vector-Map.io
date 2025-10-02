@@ -1,0 +1,26 @@
+{
+  "processing_date": "2025-07-15T19:09:28.827704",
+  "patch_name": "patch_00001",
+  "original_metadata": {
+    "patch_name": "patch_00001",
+    "patch_index": 1,
+    "original_size": [
+      256,
+      256
+    ],
+    "segmentation_threshold": 0.5,
+    "height_scale_factor": 50.0,
+    "max_predicted_height": 14.592748641967773,
+    "mean_predicted_height": 12.505793571472168,
+    "building_pixel_count": 5494,
+    "total_pixel_count": 65536
+  },
+  "vector_processing": {
+    "total_buildings": 8,
+    "total_area_m2": 1275.25,
+    "average_area_m2": 159.40625,
+    "pixel_size_m": 0.5,
+    "coordinate_system": "EPSG:4326",
+    "has_height_data": true
+  }
+}

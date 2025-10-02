@@ -1,0 +1,62 @@
+{
+  "DeepLabV3+": {
+    "mean_iou": 0.7918444857054513,
+    "std_iou": 0.05106608636664594,
+    "mean_precision": 0.9046953643657125,
+    "std_precision": 0.03289624126080496,
+    "mean_recall": 0.8632139266390865,
+    "std_recall": 0.04299710699483811,
+    "mean_f1": 0.8829169162706908,
+    "std_f1": 0.032148591673086785,
+    "mean_inference_time": 0.01617890245774213,
+    "std_inference_time": 0.06707484583472131,
+    "best_training_iou": 0.7992744309261507,
+    "num_parameters": 26457730,
+    "model_size_mb": 100.92823028564453
+  },
+  "FPN-ResNet": {
+    "mean_iou": 0.6601598927069032,
+    "std_iou": 0.06500288085923554,
+    "mean_precision": 0.768407528702324,
+    "std_precision": 0.05853324942216243,
+    "mean_recall": 0.8254928606955024,
+    "std_recall": 0.06730780783767154,
+    "mean_f1": 0.7934126873444777,
+    "std_f1": 0.048219509458793657,
+    "mean_inference_time": 0.010242392035091625,
+    "std_inference_time": 0.009302894782696572,
+    "best_training_iou": 0.6645492409997517,
+    "num_parameters": 25286785,
+    "model_size_mb": 96.46142959594727
+  },
+  "UNet": {
+    "mean_iou": 0.7233359912111406,
+    "std_iou": 0.06545747496516185,
+    "mean_precision": 0.8480283925425286,
+    "std_precision": 0.044904130953966094,
+    "mean_recall": 0.8312478725141059,
+    "std_recall": 0.06812447610362453,
+    "mean_f1": 0.8377406981252822,
+    "std_f1": 0.04533784742592813,
+    "mean_inference_time": 0.008689141740985945,
+    "std_inference_time": 0.032582204036829675,
+    "best_training_iou": 0.7311939945649052,
+    "num_parameters": 31037633,
+    "model_size_mb": 118.39917373657227
+  },
+  "Ensemble": {
+    "mean_iou": 0.7758732962772182,
+    "std_iou": 0.05521797956942387,
+    "mean_precision": 0.8833841644467607,
+    "std_precision": 0.036970490469170336,
+    "mean_recall": 0.8641066977999151,
+    "std_recall": 0.05175385698999818,
+    "mean_f1": 0.8726788354701307,
+    "std_f1": 0.03591652535445118,
+    "mean_inference_time": 0.023200058469585345,
+    "std_inference_time": 0.004945570885301567,
+    "best_training_iou": 0.0,
+    "num_parameters": 82782151,
+    "model_size_mb": 315.78884506225586
+  }
+}

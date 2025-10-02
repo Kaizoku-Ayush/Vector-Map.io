@@ -1,3 +1,9 @@
+#Files over 100mb
+height_analysis_output/
+models/
+vector_outputs/
+vector_processing_output/
+
 #Ignoring Dataset Files
 *.tif
 data/
